@@ -4,7 +4,9 @@
   "description": "Food delivery App",
   "main": "App.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "repository": {
     "type": "git",
@@ -22,7 +24,8 @@
   "homepage": "https://github.com/LincyVarkey/PikMe#readme",
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.20.1"
   },
   "devDependencies": {
     "parcel": "^2.10.2",
